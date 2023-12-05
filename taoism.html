@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Taoism</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Lora", serif
+      }
+
+      /* Font sizes set for consistency */
+      body,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p {
+        font-size: 16px;
+      }
+
+      h1 {
+        font-size: 25px;
+      }
+
+      .w3-bar,
+      h1,
+      button {
+        font-family: "Merriweather", serif
+      }
+
+      .fa-brain,
+      .fa-coffee,
+      .fa-person-circle-question {
+        font-size: 100px;
+      }
+
+      /* Consistent styling for single-line text in the white boxes */
+      .single-line-text {
+        font-family: "Merriweather", serif;
+        font-size: 18px;
+        font-style: italic;
+        color: #333;
+        /* Adjust color as needed */
+        text-align: center;
+        margin-top: 10px;
+        /* Added margin for spacing */
+      }
+
+      /* Philosophy theme colors */
+      .w3-bar,
+      .w3-card,
+      .w3-button,
+      .w3-show,
+      .w3-opacity {
+        background-color: #1C3D63;
+        color: white;
+      }
+
+      /* Update the color of the buttons and navigation bar */
+      .w3-button {
+        background-color: #E17B24;
+        color: white;
+      }
+
+      /* Update the color of the header and text */
+      .w3-container,
+      .w3-text-grey {
+        color: #1C3D63;
+      }
+
+      /* Update the color of the anchor and coffee icons */
+      .w3-text-red {
+        color: #E17B24;
+      }
+
+      body {
+        background: url("imgs/background.jpg") no-repeat center;
+        margin: auto;
+      }
+
+      footer {
+        background: url("imgs/background.jpg") no-repeat center;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+      }
+
+      .company {
+        font: bold;
+        background-color: aliceblue;
+        max-width: fit-content;
+        margin: auto;
+      }
+
+      mark {
+        background-color: white;
+        color: black;
+        text-align: center;
+        display: block;
+      }
+
+      /* Center all content in the middle of the page */
+      .w3-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .card {
+        margin-top: 25%;
+        margin-bottom: 25%;
+        width: 75%;
+        border-radius: 15px;
+        padding: 25px;
+        /* margin: 10px; */
+        height: 100vh;
+        background-color: #070608;
+        border-style: groove;
+        border-color: grey;
+        overflow: hidden;
+      }
+
+      .centered-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .fill {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="w3-top">
+      <div class="w3-bar w3-grey w3-card">
+        <div class="w3-dropdown-hover w3-hide-large w3-hide-medium">
+          <button class="w3-padding-large w3-button" title="bars">
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="w3-dropdown-content w3-bar-block w3-black w3-hover-white">
+            <a href="stoicism.html" class="w3-bar-item w3-button w3-padding-large w3-black w3-hover-white">STOICISM</a>
+            <a href="taoism.html" class="w3-bar-item w3-button w3-padding-large w3-black">TAOISM</a>
+            <a href="existentialism.html" class="w3-bar-item w3-button w3-padding-large w3-black">EXISTENTIALISM</a>
+            <a href="careers.html" class="w3-bar-item w3-button w3-padding-large w3-black">CAREERS</a>
+            <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-black">ABOUT</a>
+          </div>
+        </div>
+        <!-- Navbar on small screens -->
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-black w3-hover-white">HOME</a>
+        <a href="stoicism.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-black w3-hover-white">STOICISM</a>
+        <a href="taoism.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-black w3-hover-white">TAOISM</a>
+        <a href="existentialism.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-black w3-hover-white">EXISTENTIALISM</a>
+        <a href="careers.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-black w3-hover-white">CAREERS</a>
+        <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-black w3-hover-white">ABOUT</a>
+      </div>
+    </div>
+    <!-- Header -->
+    <header class="w3-container w3-red w3-center" style="padding:128px 16px">
+      <h1 class="w3-margin w3-jumbo">TAOISM</h1>
+      <p class="w3-xlarge">Exploring The Philosophy of Taoism</p>
+    </header>
+      <!-- First Grid -->
+      <div class="fill">
+      <div class="centered-card">
+        <div class="card">
+          <div class="w3-content section">
+            <div class="w3-twothird w3-text-white">
+              <div class="text1"></div>
+              <img src="imgs/TaoistFlow.jpg" alt="TaoistFlow" style="max-width: 100%; display: block; margin: 0 auto;">
+              <h1>
+                <mark>What is taoism?</mark>
+              </h1>
+              <h3>
+                <mark>Taoists believe in harmony with the natural flow of the universe (Tao), striving for balance through simplicity, embracing the interplay of opposites (Yin and Yang), practicing effortless action (Wu Wei), and cultivating inner peace through meditation and humility.</mark>
+              </h3>
+              <h3>
+                <mark>Taoism is often referred to as the philosophy of "flow". This is because Taoism teaches about the value of flow states. When you are doing something and all of a sudden you "get in the zone", that is a flow state. Flow states allow people to focus more efficiently and more effectively than normal.</mark>
+              </h3>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="w3-third w3-center">
+          <i class="text-danger w3-padding-64 w3-text-black"></i>
+        </div>
+      </div>
+    <!-- Second Grid -->
+    <div class="centered-card">
+      <div class="card">
+        <div class="w3-content section">
+          <div class="w3-twothird w3-center">
+            <img src="imgs/Yin_Yang.png" alt="Yin_Yang" style="max-width: 40%; display: block; margin: 0 auto;">
+            <h1>
+              <mark>Inspirational Taoist Quotes</mark>
+            </h1>
+            <p class="w3-text-black"></p>
+              <ul>
+                <li>
+                  <mark>"If you are depressed you are living in the past. If you are anxious you are living in the future. If you are at peace you are living in the present." - Lao Tzu<br><br></mark>
+                </li>
+                <li>
+                  <mark>"Watch your thoughts, they become your words; watch your words, they become your actions; watch your actions, they become your habits; watch your habits, they become your character; watch your character, it becomes your destiny." - Lao Tzu<br><br></mark>
+                </li>
+                <li>
+                  <mark>"A path is made by walking on it." - Chuang Tzu<br><br></mark>
+                </li>
+                <li>
+                  <mark>"Care about what other people think and you will always be their prisoner." - Lao Tzu</mark>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Third Grid -->
+    <div class="centered-card">
+      <div class="card">
+        <div class="w3-content section">
+          <div class="w3-twothird">
+            <img src="imgs/TaoTeChing.jpg" alt="TaoTeChing" style="max-width: 75%; display: block; margin: 0 auto;">
+            <h1>
+              <mark>Famous Taoist Books</mark>
+            </h1>
+            <h5 class="w3-text-black">
+              <mark>Famous Taoist books include the Tao Te Ching by Lao Tzu, & The Liezi by Lie Yukou.</mark>
+            </h5>
+            <a href="https://www.readthistwice.com/lists/best-books-on-taoism">
+              <mark>Tap Here to See an in Depth Explanation of some of the Greatest Books on the Philosophy of Taoism.</mark>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center">
+      <div class="w3-hover-text-red">
+        <a href="https://www.readthistwice.com/lists/best-books-on-taoism">
+          <mark><b>Tap Here to See Some of the Greatest Quotes From the Taoist Philosopher, Lao Tzu.</b></mark>
+        </a>
+      </div>
+      <p class="company"><b>2023 Philosophy World</b></p>
+    </footer>
+    <script>
+      // Used to toggle the menu on small screens when clicking on the menu button
+      function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else {
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+    </script>
+  </body>
+</html>

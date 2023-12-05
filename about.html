@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>About</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Lora", serif
+      }
+
+      /* Font sizes set for consistency */
+      body,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p {
+        font-size: 16px;
+      }
+
+      h1 {
+        font-size: 25px;
+      }
+
+      .w3-bar,
+      h1,
+      button {
+        font-family: "Merriweather", serif
+      }
+
+      .fa-brain,
+      .fa-coffee,
+      .fa-person-circle-question
+      .fa-phone
+      .fa-envelope {
+        font-size: 100px;
+      }
+
+      /* Consistent styling for single-line text in the white boxes */
+      .single-line-text {
+        font-family: "Merriweather", serif;
+        font-size: 18px;
+        font-style: italic;
+        color: #333;
+        /* Adjust color as needed */
+        text-align: center;
+        margin-top: 10px;
+        /* Added margin for spacing */
+      }
+
+      /* Philosophy theme colors */
+      .w3-bar,
+      .w3-card,
+      .w3-button,
+      .w3-show,
+      .w3-opacity {
+        background-color: #1C3D63;
+        color: white;
+      }
+
+      /* Update the color of the buttons and navigation bar */
+      .w3-button {
+        background-color: #E17B24;
+        color: white;
+      }
+
+      /* Update the color of the header and text */
+      .w3-container,
+      .w3-text-grey {
+        color: #1C3D63;
+      }
+
+      /* Update the color of the anchor and coffee icons */
+      .w3-text-red {
+        color: #E17B24;
+      }
+
+      body {
+        background: url("imgs/background.jpg") no-repeat center;
+        margin: auto;
+      }
+
+      footer {
+        background: url("imgs/background.jpg") no-repeat center;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+      }
+
+      .company {
+        font: bold;
+        background-color: aliceblue;
+        max-width: fit-content;
+        margin: auto;
+      }
+
+      mark {
+        background-color: white;
+        color: black;
+        text-align: center;
+        display: block;
+      }
+
+      /* Center all content in the middle of the page */
+      .w3-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .card {
+        margin-top: 25%;
+        margin-bottom: 25%;
+        width: 75%;
+        border-radius: 15px;
+        padding: 25px;
+        /* margin: 10px; */
+        height: 100vh;
+        background-color: #070608;
+        border-style: groove;
+        border-color: grey;
+        overflow: hidden;
+      }
+
+      .centered-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .fill {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+
+   
+    <!-- Navbar -->
+    <div class="w3-top">
+      <div class="w3-bar w3-grey w3-card">
+        <div class="w3-dropdown-hover w3-hide-large w3-hide-medium">
+          <button class="w3-padding-large w3-button" title="bars">
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="w3-dropdown-content w3-bar-block w3-black w3-hover-white">
+            <a href="stoicism.html" class="w3-bar-item w3-button w3-padding-large w3-black w3-hover-white">STOICISM</a>
+            <a href="taoism.html" class="w3-bar-item w3-button w3-padding-large w3-black">TAOISM</a>
+            <a href="existentialism.html" class="w3-bar-item w3-button w3-padding-large w3-black">EXISTENTIALISM</a>
+            <a href="careers.html" class="w3-bar-item w3-button w3-padding-large w3-black">CAREERS</a>
+            <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-black">ABOUT</a>
+          </div>
+        </div>
+        <!-- Navbar on small screens -->
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-black w3-hover-white">HOME</a>
+        <a href="stoicism.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-black w3-hover-white">STOICISM</a>
+        <a href="taoism.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-black w3-hover-white">TAOISM</a>
+        <a href="existentialism.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-black w3-hover-white">EXISTENTIALISM</a>
+        <a href="careers.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-black w3-hover-white">CAREERS</a>
+        <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-black w3-hover-white">ABOUT</a>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="w3-container w3-red w3-center" style="padding:128px 16px">
+      <h1 class="w3-margin w3-jumbo">ABOUT PHILOSOPHY WORLD</h1>
+    </header>
+
+      <!-- First Grid -->
+      <div class="fill">
+      <div class="centered-card">
+        <div class="card">
+          <div class="w3-content section">
+            <div class="w3-twothird w3-text-white">
+              <div class="text1"></div>
+              <h1>
+                <mark>Our Purpose</mark>
+              </h1>
+              <h3>
+                <mark>At Philosophy World, we are looking to improve people's lives by sharing timeless wisdom.</mark>
+              </h3>
+              <p>
+                <mark>We believe that philosophy is an art form. Philosophy helps people change their mindsets. Our perception of how good our life is, is dependent on our mindset. Science is one means of finding the truth. The process of science is to find truth through observation. The process of philosophy is to find truth through dialogue, & critical thinking.</mark>
+              </p>
+              <p>
+                <mark>We decided to include a lot of wise quotes without analyzing them. This is because we want the wisdom to speak for it's self. Let the wise quotes be something you meditate on.</mark>
+              </p>
+              <img src="imgs/Epictetus.jpg" alt="Philosopher" style="max-width: 90%; display: block; margin: 0 auto;">
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="w3-third w3-center">
+          <i class="text-danger w3-padding-64 w3-text-black"></i>
+        </div>
+      </div>
+
+    <!-- Second Grid -->
+    <div class="centered-card">
+      <div class="card">
+        <div class="w3-content section">
+          <div class="w3-twothird w3-center">
+            <h1>
+              <mark>Our Team</mark>
+            </h1>
+            <h3 class="w3-text-black">
+              <mark>Nick Alborghetti</mark>
+            </h3>
+            <img src="imgs/Me.jpeg" alt="Team" style="max-width: 60%; display: block; margin: 0 auto;">
+            <h5><mark>Nick is a college student studying business, with an interest in marketing. Nick has been diligently studying philosophy for years now. He has found that philosophy has dramatically improved his life. If he can even improve just one person's life with Philosophy World, then that will be a win in his book.</mark></h5>
+            <p class="w3-text-white">Other Philosophy Websites I Recommend:
+              <br>
+              <a href="https://einzelganger.co/">einzelganger.com</a>
+              <br>
+              <a href="https://dailystoic.com/">dailystoic.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Third Grid -->
+    <div class="fill">
+    <div class="centered-card">
+      <div class="card">
+        <div class="w3-content section">
+          <div class="w3-twothird w3-center">
+            <img src="imgs/Aristotle.jpg" alt="Aristotle" style="max-width: 100%; display: block; margin: 0 auto;">
+            <h1>
+              <mark>Contact Us</mark>
+            </h1>
+            <h5 class="w3-text-white">
+            <i class="fa fa-phone"></i> <br> Phone: (408)-252-5252<br>
+            <i class="fa fa-envelope"></i> <br> Email: mail147@mail.com<br>
+          </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Footer -->
+    <div class="w3-container w3-red w3-center w3-opacity w3-padding-64">
+      <p class="company">
+        <mark><b>2023 Philosophy World</b></mark>
+      </p>
+    </div>
+    <script>
+      // Used to toggle the menu on small screens when clicking on the menu button
+      function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else {
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+    </script>
+  </body>
+</html>

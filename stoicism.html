@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Stoicism</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Lora", serif
+      }
+
+      /* Font sizes set for consistency */
+      body,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p {
+        font-size: 16px;
+      }
+
+      h1 {
+        font-size: 25px;
+      }
+
+      .w3-bar,
+      h1,
+      button {
+        font-family: "Merriweather", serif
+      }
+
+      .fa-brain,
+      .fa-coffee,
+      .fa-person-circle-question {
+        font-size: 100px;
+      }
+
+      /* Consistent styling for single-line text in the white boxes */
+      .single-line-text {
+        font-family: "Merriweather", serif;
+        font-size: 18px;
+        font-style: italic;
+        color: #333;
+        /* Adjust color as needed */
+        text-align: center;
+        margin-top: 10px;
+        /* Added margin for spacing */
+      }
+
+      /* Philosophy theme colors */
+      .w3-bar,
+      .w3-card,
+      .w3-button,
+      .w3-show,
+      .w3-opacity {
+        background-color: #1C3D63;
+        color: white;
+      }
+
+      /* Update the color of the buttons and navigation bar */
+      .w3-button {
+        background-color: #E17B24;
+        color: white;
+      }
+
+      /* Update the color of the header and text */
+      .w3-container,
+      .w3-text-grey {
+        color: #1C3D63;
+      }
+
+      /* Update the color of the anchor and coffee icons */
+      .w3-text-red {
+        color: #E17B24;
+      }
+
+      body {
+        background: url("imgs/background.jpg") no-repeat center;
+        margin: auto;
+      }
+
+      footer {
+        background: url("imgs/background.jpg") no-repeat center;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+      }
+
+      .company {
+        font: bold;
+        background-color: aliceblue;
+        max-width: fit-content;
+        margin: auto;
+      }
+
+      mark {
+        background-color: white;
+        color: black;
+        text-align: center;
+        display: block;
+      }
+
+      /* Center all content in the middle of the page */
+      .w3-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .card {
+        margin-top: 25%;
+        margin-bottom: 25%;
+        width: 75%;
+        border-radius: 15px;
+        padding: 25px;
+        /* margin: auto; */
+        height: 100vh;
+        background-color: #070608;
+        border-style: groove;
+        border-color: grey;
+        overflow: hidden;
+      }
+
+      .centered-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .fill {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="w3-top">
+      <div class="w3-bar w3-grey w3-card">
+        <div class="w3-dropdown-hover w3-hide-large w3-hide-medium">
+          <button class="w3-padding-large w3-button" title="bars">
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="w3-dropdown-content w3-bar-block w3-black w3-hover-white">
+            <a href="stoicism.html" class="w3-bar-item w3-button w3-padding-large w3-black w3-hover-white">STOICISM</a>
+            <a href="taoism.html" class="w3-bar-item w3-button w3-padding-large w3-black">TAOISM</a>
+            <a href="existentialism.html" class="w3-bar-item w3-button w3-padding-large w3-black">EXISTENTIALISM</a>
+            <a href="careers.html" class="w3-bar-item w3-button w3-padding-large w3-black">CAREERS</a>
+            <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-black">ABOUT</a>
+          </div>
+        </div>
+        <!-- Navbar on small screens -->
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-black w3-hover-white">HOME</a>
+        <a href="stoicism.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-black w3-hover-white">STOICISM</a>
+        <a href="taoism.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-black w3-hover-white">TAOISM</a>
+        <a href="existentialism.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-black w3-hover-white">EXISTENTIALISM</a>
+        <a href="careers.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-black w3-hover-white">CAREERS</a>
+        <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-black w3-hover-white">ABOUT</a>
+      </div>
+    </div>
+    <!-- Header -->
+    <header class="w3-container w3-red w3-center" style="padding:128px 16px">
+      <h1 class="w3-margin w3-jumbo">STOICISM</h1>
+      <p class="w3-xlarge">Exploring the Philosophy of Stoicism</p>
+    </header>
+
+       <!-- First Grid -->
+       <div class="fill">
+        <div class="centered-card">
+          <div class="card">
+            <div class="w3-content section">
+              <div class="w3-twothird w3-text-white">
+                <div class="text1"></div>
+                <img src="imgs/Stoic.jpg" alt="Stoic" style="max-width: 100%; display: block; margin: 0 auto;">
+                <h1>
+                  <mark>What Exactly is Stoicism?</mark>
+                </h1>
+                <h3>
+                  <mark>Stoicism is a philosophy that emphasizes personal responsibility, introspection, respectfulness, honor, & mental fortitude.</mark>
+                </h3>
+                <h3>
+                  <mark>The 4 stoic virtues are wisdom, temperance (self-control), justice, & courage.</mark>
+                </h3>
+                <p>
+                  <mark>In recent times, Stoicism has experienced a resurgance in popularity. Many young adults find that Stoicism helps them deal with the adversities of life, and become better versions of themselves in the process. It is amazing that Stoicism is still relevant nowadays. the philosphy was created over 2,000 years ago. Ancient Stoic wisdom truly is timeless.</mark>
+                </p>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="w3-third w3-center">
+            <i class="text-danger w3-padding-64 w3-text-black"></i>
+          </div>
+        </div>
+
+    <!-- Second Grid -->
+    <div class="centered-card">
+      <div class="card">
+        <div class="w3-content section">
+          <div class="w3-twothird w3-center">
+            <img src="imgs/StoicLogo.jpg" alt="StoicLogo" style="max-width: 70%; display: block; margin: 0 auto;">
+            <h1>
+              <mark>Inspirational Stoic Quotes</mark>
+            </h1>
+            <p class="w3-text-black"></p>
+              <ul>
+                <li>
+                  <mark>"The happiness of your life depends upon the quality of your thoughts." - Marcus Aurelius<br><br></mark>
+                </li>
+                <li>
+                  <mark>"You become what you give your attention to." - Epictetus<br><br></mark>
+                </li>
+                <li>
+                  <mark>"It never ceases to amaze me: we all love ourselves more than other people, but care more about their opinion than our own." - Marcus Aurelius <br><br></mark>
+                </li>
+                <li>
+                  <mark>"Difficulties strengthen the mind, as labor does the body." - Seneca</mark>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Third Grid -->
+    <div class="centered-card">
+      <div class="card">
+        <div class="w3-content section">
+          <div class="w3-twothird">
+            <img src="imgs/Meditations.jpg" alt="Meditations" style="max-width: 75%; display: block; margin: 0 auto;">
+            <h1>
+              <mark>Famous Stoic Books</mark>
+            </h1>
+            <h5 class="w3-text-black">
+              <mark>Famous Stoic books include Marcus Aurelius' Meditations, The Discourses of Epictetus, & Seneca's On The Shortness of Life.</mark>
+            </h5>
+            <div class="w3-hover-text-red">
+              <a href="https://dailystoic.com/stoic-reading-list/">
+                <mark>Tap Here to See an in Depth Explanation of some of the Greatest Works of Stoic Literature.</mark>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center">
+      <div class="w3-hover-text-red">
+        <a href="https://www.goodreads.com/author/quotes/17212.Marcus_Aurelius">
+          <mark><b>Here to See Some of the Greatest Quotes From the Stoic Philosopher, Marcus Aurelius.</b><br></mark>
+        </a>
+      </div>
+      <p class="company"><b>2023 Philosophy World</b><br></p>
+    </footer>
+    <script>
+      // Used to toggle the menu on small screens when clicking on the menu button
+      function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else {
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+    </script>
+  </body>
+</html>
